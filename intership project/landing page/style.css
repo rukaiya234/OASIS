@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+/*navbar*/
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:18px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:rgba(2,6,23,0.85);
+    z-index:1000;
+}
+.logo{
+    color:white;
+    font-size:26px;
+    font-weight:bold;
+}
+.logo span{
+    color:#3b82f6;
+}
+.navbar nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:15px;
+}
+/*hero-section*/
+.hero {
+    height:100vh;
+    width:100%;
+    background:linear-gradient(rgba(2,6,23,0.5),rgba(2,6,23,0.5)),
+    url("laptop photo.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items:center;
+    padding-left:80px;
+}
+.hero-text{
+    max-width:520px;
+    color:white;
+}
+.hero-text h1{
+    font-size:48px;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+.hero-text p{
+    font-size:16px;
+    line-height:1.6;
+    color:#d1d5db;
+    margin-bottom:30px;
+}
+.hero-text button{
+    padding:12px 32px;
+    background-color:#3b82f6;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+}
+/*features section*/
+.features {
+    padding:80px 60px;
+    background:#f9fafb;
+    text-align:center;
+}
+.features h2{
+    font-size:32px;
+    margin-bottom:10px;
+}
+.features .sub{
+    color:grey;
+    margin-bottom:50px;
+}
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+.card{
+    background-color:white;
+    width:260px;
+    padding:30px;
+    border-radius:14px;
+    box-shadow: 0 10px 25px
+    rgba(0,0,0,0.08);
+}
+.card h3{
+    margin:15px 0;
+} 
+.card p{
+    color:gray;
+    font-size:14px;
+}
+/*cta section*/
+.cta{
+    background:linear-gradient(
+        rgba(2,6,23,0.85),
+        rgba(2,6,23,0.85)
+    );
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+    background-image:url("earth.jpg");
+    background-size:cover;
+    background-position:center;
+}
+.cta h2{
+    font-size:34px;
+    margin-bottom:10px;
+}
+.cta p{
+    color:black;
+    margin-bottom:25px;
+}
+.cta button{
+    padding:12px 34px;
+    background:#3b82f6;
+    border:none;
+    color:white;
+    border-radius:6px;
+    font-size:16px;
+}
+/*footer*/
+footer{
+    background:#020617;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:14px;
+}
